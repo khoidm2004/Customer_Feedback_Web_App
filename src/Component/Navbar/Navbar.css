@@ -1,0 +1,66 @@
+.Navbar_Container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #ffffff;
+}
+
+.Logo_Container a {
+    margin-left: 20px;
+}
+
+.NavLink_Container li {
+    padding-top: 10px;
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.NavLink_Container li a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: none;
+    padding: 0 6px;
+}
+
+.NavLink_Container li a:after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -6px;
+    transition: 0.4s;
+}
+
+.NavLink_Container li a:hover:after {
+    width: 100%;
+}
+
+.NavLink_Container li button {
+    font-size: 15px;
+    cursor: pointer;
+    padding: 6px 16px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.Navbar_Container li button:hover {
+    background-color: black;
+    color: #ececec;
+}
+
+@media screen and (max-width:768px) {
+    .Navbar_Container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .NavLink_Container li {
+        margin-right: none;
+    }
+}
