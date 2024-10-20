@@ -1,8 +1,12 @@
-# React + Vite
+# Customer Feedback Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Description: This web app takes the data from the interface and writes it into Google Sheet
 
-Currently, two official plugins are available:
+## Tech stacks💻
+- Frontend: Vite + React + MaterialUI
+- Database: Google Sheet
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## [Link to Google sheet](https://docs.google.com/spreadsheets/d/178BeEwgdU6GM4I6kKj1UvvA1iQZequdFi50jvNdPXC4/edit?usp=sharing)
+
+
+
