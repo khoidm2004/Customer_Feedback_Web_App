@@ -4,7 +4,8 @@
 
 ## Tech stacks💻
 - Frontend: Vite + React + MaterialUI
-- Database: Google Sheet
+- Database: Google Sheet + SheetDB
+- Deployment: Vercel
 
 ## [Link to Google sheet](https://docs.google.com/spreadsheets/d/178BeEwgdU6GM4I6kKj1UvvA1iQZequdFi50jvNdPXC4/edit?usp=sharing)
 
